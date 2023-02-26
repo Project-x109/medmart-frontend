@@ -1,0 +1,42 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0.25;
+  flex-basis: 25%;
+  height: 78vh;
+  border-bottom: 20px;
+}
+
+.contacts__heading {
+  text-align: center;
+  padding: 20px 0px;
+  background: #036055;
+  color: white;
+}
+.contacts__heading > h1 {
+  font-weight: 545;
+}
+
+.contacts__list {
+  flex: 1;
+  overflow-y: auto;
+}
+.contactcard {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.568);
+  cursor: pointer;
+  user-select: none;
+}
+.contactcard:hover {
+  background: rgba(236, 234, 234, 0.466);
+}
+.contactcard__username {
+  margin-left: 10px;
+}
+.contactcard__username > h3 {
+  font-size: 1.2rem;
+  font-weight: 545;
+}

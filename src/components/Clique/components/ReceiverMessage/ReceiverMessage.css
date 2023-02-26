@@ -1,0 +1,20 @@
+.receivermessage {
+  align-self: flex-start;
+  background: white;
+  padding: 5px;
+  max-width: 45%;
+  min-width: 100px;
+  width: fit-content;
+  border-radius: 10px;
+  border-bottom: 2px solid rgba(37, 37, 37, 0.075);
+  margin-bottom: 2px;
+}
+.receivermessage > p {
+  padding: 5px;
+}
+.receivermessage > span {
+  float: right;
+  padding: 0px 5px;
+  font-size: 0.9em;
+  color: #c9c7c7;
+}

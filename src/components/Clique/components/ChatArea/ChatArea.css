@@ -1,0 +1,45 @@
+.chatarea {
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  position: relative;
+  background-color: #e5ddd560;
+}
+.chatarea__container {
+  height: 100%;
+  width: 100%;
+  opacity: 0.06;
+  z-index: -100;
+  position: absolute;
+  background-image: url("https://web.whatsapp.com/img/bg-chat-tile-light_04fcacde539c58cca6745483d4858c52.png");
+}
+
+.chatarea__messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f15e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgba(136, 136, 136, 0.3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(116, 115, 115, 0.7);
+}

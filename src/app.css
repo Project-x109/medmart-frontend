@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.6;
+  }
+  
+  .App {
+    display: flex;
+    height: 100vh;
+  }
+  

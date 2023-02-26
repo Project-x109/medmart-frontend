@@ -1,0 +1,18 @@
+.contactcard {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.568);
+  cursor: pointer;
+  user-select: none;
+}
+.contactcard:hover {
+  background: rgba(236, 234, 234, 0.466);
+}
+.contactcard__username {
+  margin-left: 10px;
+}
+.contactcard__username > h3 {
+  font-size: 1.2rem;
+  font-weight: 545;
+}

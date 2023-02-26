@@ -1,0 +1,55 @@
+.chatinput {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chatinput__form {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+.chatinput__form .MuiSvgIcon-root {
+  cursor: pointer;
+  font-size: 2em;
+  padding: 0px 5px;
+  color: gray;
+}
+.chatinput__form > form {
+  flex: 1;
+}
+.chatinput__form > form > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+}
+.chatinput__formIcons {
+  display: flex;
+  align-items: center;
+}
+.chatinput__icons {
+  background: #036055;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+}
+
+.chatinput__icons > .MuiSvgIcon-root {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 2em;
+  color: white;
+}
+
+.chatinput__form > .emoji-picker-react {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}

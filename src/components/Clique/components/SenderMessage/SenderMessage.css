@@ -1,0 +1,30 @@
+.sendermessage {
+  align-self: flex-end;
+  background: #dff8ca;
+  padding: 5px;
+  max-width: 45%;
+  min-width: 100px;
+  width: fit-content;
+  border-radius: 10px;
+  border-bottom: 2px solid rgba(37, 37, 37, 0.075);
+  margin-bottom: 2px;
+}
+.sendermessage > p {
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+.sendermessage > span {
+  float: right;
+  padding: 0px 5px;
+  font-size: 0.9em;
+  color: #b6cda4;
+  display: flex;
+  align-items: center;
+}
+
+.sendermessage > span > .MuiSvgIcon-root {
+  font-size: 1.2em;
+  color: #4fc3f7;
+  padding: 0px 5px;
+}
