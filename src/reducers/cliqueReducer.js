@@ -18,7 +18,7 @@ export const chatsReducer = (state = { chat: [] }, { type, payload }) => {
             return {
                 ...state,
                 loading: false,
-                error: payload,
+                error: payload, 
             };
         case CLEAR_ERRORS:
             return {
