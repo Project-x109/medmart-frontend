@@ -86,7 +86,7 @@ return(
       <MetaData title="Admin Users  | E-Bidir" />
       <div class="flex flex-col h-full pl-px rounded-sm shadow-lg p-2  pb-6 w-full overflow-hidden">
       <MUIDataTable
-          title={"Importers"}
+          title={"Importers"} 
           data={data2}
           columns={columns}
           options={options}
