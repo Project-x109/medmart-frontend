@@ -2,6 +2,7 @@
   "name": "MedMart",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://medmart.onrender.com",
   "proxy": "https://medmartapi.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.7.1",
