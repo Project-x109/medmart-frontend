@@ -44,7 +44,7 @@ import { loadChat } from './actions/cliqueAction';
 import Tenders from './components/Tender/tenders';
 import TendersList from './components/Tender/TendersList';
 
-  export const URL = "http://localhost:4000"//process.env.REACT_APP_SERVER_URL;
+  export const URL = "https://medmartapi.onrender.com/"//process.env.REACT_APP_SERVER_URL;
 function App() {
 
   const dispatch = useDispatch();
