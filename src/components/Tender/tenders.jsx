@@ -1,7 +1,4 @@
-import Banner from "../Home/Banner/Banner";
-import Categories from "../Layouts/Categories";
 import Tender from "./tender";
-import TenderDealSlider from "./TenderDealSlider";
 import { offerTender } from "./util/constants";
 import { getRandomTender } from "./util/functions";
 

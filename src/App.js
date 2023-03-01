@@ -38,10 +38,8 @@ import Wishlist from './components/Wishlist/Wishlist';
 import NotFound from './components/NotFound';
 import Importers from './components/importers/importers';
 import ChatContextProvider from './components/Clique/contexts/ChatContext';
-import Main from './components/Clique/components/Main/Main'
-import Contacts from './components/Clique/components/Contacts/Contacts'
 import { loadChat } from './actions/cliqueAction';
-import Tenders from './components/Tender/tenders';
+import Tenders from './components/bid/tenders';
 import TendersList from './components/Tender/TendersList';
 
   export const URL = "https://medmartapi.onrender.com"//process.env.REACT_APP_SERVER_URL;

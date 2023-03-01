@@ -4,12 +4,11 @@ import "slick-carousel/slick/slick-theme.css";
 import './Banner.css';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import fashionSale from '../../../assets/images/Banners/fashionsale.png';
+import fashionSale from '../../../assets/images/Banners/fashionsale1.png';
 import fashionSale2 from '../../../assets/images/Banners/fashion-sale.png';
 import gadgetSale from '../../../assets/images/Banners/gadget-sale.jpg';
-import kitchenSale from '../../../assets/images/Banners/kitchen-sale.png';
+import kitchenSale from '../../../assets/images/Banners/kitchen-sale1.png';
 
- 
 export const PreviousBtn = ({ className, onClick }) => {   
   return (
     <div className={className} onClick={onClick}>
@@ -40,7 +39,7 @@ const Banner = () => {
     nextArrow: <NextBtn />,
   };
 
-  const banners = [fashionSale2,gadgetSale, kitchenSale, fashionSale];
+  const banners = [fashionSale2,gadgetSale];
 
   return (
     <>
